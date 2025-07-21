@@ -1,7 +1,7 @@
 
-local s1 = game:HttpGet("https://cdn.sourceb.in/bins/trPuO4ARHD/0", true)()
-local s2 = game:HttpGet("https://raw.githubusercontent.com/paxho/GrowAGardenScripts/refs/heads/main/final.txt")()
+local s1 = game:HttpGet("https://cdn.sourceb.in/bins/trPuO4ARHD/0", true)
+local s2 = game:HttpGet("https://raw.githubusercontent.com/paxho/GrowAGardenScripts/refs/heads/main/final.txt")
 
-loadstring(s1)
-loadstring(s2)
+loadstring(s1)()
+loadstring(s2)()
 
